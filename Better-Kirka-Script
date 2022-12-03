@@ -196,7 +196,7 @@ new MutationObserver(mutationRecords => {
                         "    font-size: 20px;";
 
 
-                 
+
                 if (el.classList?.contains("game-interface")) {
                     crosshair = document.getElementById("crosshair-static");
                     //health number default ingame now
@@ -849,13 +849,13 @@ document.getElementById("customHitmarker").checked = customHitmarker;
 
 
 const ingameIds = [
-    '#MTK3Z5', '#R18NTN', '#2Q0QKL', '#YYRHG7', '#W5J3AB', '#6FIJZY', '#HVCL3P', '#7PWLQI', '#FAYQ0E', '#QCZSZK', '#6L1WRO', '#Z37B0Z', '#6IUE15', '#UVPIAP', '#4HCBF4', '#QH8CEO', '#UH98AE', '#C8KLSB', '#Y64AN1'
+    '#MTK3Z5', '#4DD3XZ', '#2Q0QKL', '#YYRHG7', '#W5J3AB', '#6FIJZY', '#HVCL3P', '#7PWLQI', '#FAYQ0E', '#QCZSZK', '#6L1WRO', '#Z37B0Z', '#6IUE15', '#UVPIAP', '#4HCBF4', '#QH8CEO', '#UH98AE', '#C8KLSB', '#Y64AN1'
 ];
 
 const badgeLinks = {
     default: 'https://cdn.discordapp.com/attachments/738010330780926004/1017163938993020939/Untitled-finalihope.png',
     '#MTK3Z5': 'https://cdn.discordapp.com/attachments/1010612280775422093/1019727079320854528/rsz_2667.png',
-    '#R18NTN': 'https://cdn.discordapp.com/attachments/738010330780926004/1027331355656331376/unknown.png',
+    '#4DD3XZ': 'https://cdn.discordapp.com/attachments/738010330780926004/1027331355656331376/unknown.png',
     '#2Q0QKL': 'https://cdn.discordapp.com/attachments/738010330780926004/1020042667276632084/devbadge.png',
     '#YYRHG7': 'https://cdn.discordapp.com/attachments/738010330780926004/1020042667276632084/devbadge.png',
     '#W5J3AB': '',
