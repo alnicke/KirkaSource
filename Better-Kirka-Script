@@ -196,25 +196,7 @@ new MutationObserver(mutationRecords => {
                         "    font-size: 20px;";
 
 
-                    btn.innerText = "Join Link";
-
-                    btn.onclick = async () => {
-                        window.location.href = await navigator.clipboard.readText();
-                    }
-
-                    document.getElementsByClassName('play-content')[0].append(btn);
-
-                    document.getElementsByClassName('settings-and-socicons')[0].children[0].onclick = () => {
-                        window.location.href = "https://discord.com/invite/cNwzjsFHpg";
-                    };
-
-                    document.getElementsByClassName('settings-and-socicons')[0].children[1].onclick = () => {
-                        window.location.href = "https://github.com/42infi/better-kirka-client/releases";
-                    };
-
-                    if (!el.classList?.contains("home") && !el.classList?.contains('moneys')) el.parentNode.removeChild(el);
-
-                }
+                 
                 if (el.classList?.contains("game-interface")) {
                     crosshair = document.getElementById("crosshair-static");
                     //health number default ingame now
